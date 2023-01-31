@@ -52,11 +52,22 @@ const plugins = [
   //     webhook_secret: STRIPE_WEBHOOK_SECRET,
   //   },
   // },
+
+
+    {
+      resolve: `medusa-file-supabase`,
+      options: {
+        project_ref: 'cwwvawjrfuyrtzpqojlb',
+        service_key: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImN3d3Zhd2pyZnV5cnR6cHFvamxiIiwicm9sZSI6ImFub24iLCJpYXQiOjE2NzM5NTMzMzYsImV4cCI6MTk4OTUyOTMzNn0.m-fg8G7mUKwnEhudVOidKgL3gkjKCbYpWxJ36WaCaf0',
+        bucket_name: 'medusa-bucket',
+      },
+    },
+
 ];
 
 module.exports = {
   projectConfig: {
-    // redis_url: REDIS_URL,
+     redis_url: REDIS_URL,
     // For more production-like environment install PostgresQL
     // database_url: DATABASE_URL,
     // database_type: "postgres",
