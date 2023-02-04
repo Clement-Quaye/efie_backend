@@ -23,7 +23,7 @@ try {
 }
 
 // CORS when consuming Medusa from admin
-const ADMIN_CORS = process.env.ADMIN_CORS || "https://main--euphonious-crisp-111dd4.netlify.app/login";
+const ADMIN_CORS = process.env.ADMIN_CORS || "https://main--ornate-swan-0fab24.netlify.app";
 
 // CORS to avoid issues when consuming Medusa from a client
 const STORE_CORS = process.env.STORE_CORS || "http://localhost:8000";
